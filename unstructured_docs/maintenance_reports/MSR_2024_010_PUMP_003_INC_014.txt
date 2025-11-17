@@ -1,0 +1,91 @@
+MAINTENANCE SERVICE REPORT
+===========================
+Report ID: MSR-2024-010
+Pump ID: PUMP_003
+Incident ID: INC_014
+Service Date: 2024-06-29
+Technician: Robert Taylor
+Service Type: Critical Seal Failure - Emergency
+
+EXECUTIVE SUMMARY:
+Critical seal leak in PUMP_003 (HydroMax-5000) at coordinates 40.7580,-73.9855. This is the 
+third major incident for this unit (previous: INC_001, INC_006). Critical patient impact due 
+to water contamination risk. Unit retirement under consideration.
+
+DIAGNOSTIC FINDINGS:
+- Major seal leak detected (estimated 5 gallons/hour)
+- Visible water pooling around pump base
+- Shaft wear detected during inspection (0.008" out of tolerance)
+- Bearing contamination from water ingress
+- Pressure fluctuations: 107.4-112.8 psi (unstable)
+- Fault Code FC_006 triggered: Seal Leak Detected
+- Service age: 1,245 days with 3 major failures
+
+ROOT CAUSE ANALYSIS:
+Mechanical seal failure due to shaft wear and misalignment. Root cause investigation reveals:
+(1) Shaft damage from previous bearing failure (INC_001) not fully addressed, (2) improper 
+seal installation during previous repair (INC_006), (3) pump foundation settling causing 
+misalignment, (4) unit operating beyond recommended service life for this application.
+Metallurgical analysis of shaft shows fatigue cracking.
+
+CORRECTIVE ACTIONS TAKEN:
+1. Immediate shutdown and containment at 06:32
+2. Water cleanup and contamination assessment
+3. Complete seal assembly replacement
+4. Shaft sleeve installation to restore sealing surface
+5. Pump foundation leveling and grouting
+6. Alignment verification (laser alignment system)
+7. Bearing inspection and replacement (preventive)
+8. Piping stress analysis and support adjustment
+9. 12-hour leak test and operational verification
+
+PARTS REPLACED:
+- Mechanical seal assembly (Part #: HM5000-SEAL-001)
+- Shaft wear sleeve (Part #: HM5000-SHAFT-SLEEVE)
+- Bearing set (Part #: HM5000-BRG-001)
+- Seal chamber gaskets (Part #: HM5000-GSKT-SET)
+- Foundation anchor bolts (Part #: ANCHOR-BOLT-M20)
+
+POST-SERVICE VERIFICATION:
+- Zero leakage detected (EXCELLENT)
+- Shaft runout: 0.001" (EXCELLENT)
+- Alignment: within 0.002" (EXCELLENT)
+- Vibration RMS: 2.3 mm/s (NORMAL)
+- Pressure: 119.5 psi stable (NORMAL)
+- Flow rate: 47.2 L/s (NORMAL)
+- 12-hour leak test: PASSED
+
+RECOMMENDATIONS:
+- **CRITICAL: Recommend unit retirement and replacement within 6 months**
+- This unit has experienced 3 major failures in 6 months
+- Cost of continued repairs approaching 70% of replacement cost
+- Reliability concerns for critical healthcare application
+- If continued operation necessary:
+  * Weekly inspection for next 90 days
+  * Install leak detection system with automatic shutdown
+  * Maintain emergency backup pump on hot standby
+  * Prepare detailed replacement specifications
+
+RELIABILITY ANALYSIS:
+- Mean Time Between Failures (MTBF): 62 days (unacceptable)
+- Cumulative maintenance cost: $18,450 (6 months)
+- Estimated replacement cost: $26,000
+- Availability: 94.2% (target: 99.5%)
+- Risk assessment: HIGH - recommend replacement
+
+FACILITY NOTIFICATION:
+- Hospital engineering director notified of retirement recommendation
+- Risk management department briefed
+- Capital equipment request submitted
+- Backup pump protocols enhanced
+
+Total Service Time: 14.5 hours
+Next Scheduled Maintenance: 2024-07-29 (WEEKLY INSPECTIONS)
+Warranty Status: OUT OF WARRANTY (Expired 2024-12-31)
+
+Technician Signature: R. Taylor
+Engineering Manager: L. Patterson
+Report Filed: 2024-06-29 21:15:00
+
+**FOLLOW-UP REQUIRED: Unit Replacement Decision by 2024-07-15**
+

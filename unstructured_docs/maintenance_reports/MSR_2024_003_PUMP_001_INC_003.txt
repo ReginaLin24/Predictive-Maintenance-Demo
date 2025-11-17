@@ -1,0 +1,61 @@
+MAINTENANCE SERVICE REPORT
+===========================
+Report ID: MSR-2024-003
+Pump ID: PUMP_001
+Incident ID: INC_003
+Service Date: 2024-02-05
+Technician: Michael Thompson
+Service Type: Preventive Maintenance
+
+EXECUTIVE SUMMARY:
+Vibration alarm triggered on PUMP_001 (AquaFlow-3000) during automated monitoring. Low patient 
+impact classification. Proactive service performed to prevent escalation.
+
+DIAGNOSTIC FINDINGS:
+- Vibration RMS reading elevated to 3.5 mm/s (threshold: 3.0 mm/s)
+- No bearing temperature abnormalities detected
+- Flow rate slightly reduced: 43.2 L/s (normal: 45-50 L/s)
+- Pressure readings within specification: 117.8 PSI
+- Fault Code FC_001: Excessive Vibration Detected
+
+ROOT CAUSE ANALYSIS:
+Investigation revealed minor impeller imbalance caused by debris accumulation. Unit has 892 days 
+service age with consistent operation in high-sediment water source. No structural damage detected. 
+Bearing condition assessed as good with 40% remaining service life.
+
+CORRECTIVE ACTIONS TAKEN:
+1. Scheduled shutdown coordinated with operations
+2. Impeller inspection and cleaning
+3. Removed mineral deposits and debris
+4. Dynamic balancing verification
+5. Vibration sensor calibration check
+6. 1-hour operational test with monitoring
+
+PARTS REPLACED:
+- None (cleaning and calibration service only)
+
+CONSUMABLES USED:
+- Cleaning solution (Part #: CLN-SOL-001)
+- Calibration reference standard
+
+POST-SERVICE VERIFICATION:
+- Vibration RMS: 2.2 mm/s (EXCELLENT)
+- Flow rate restored: 45.8 L/s (NORMAL)
+- Pressure: 120.1 PSI (NORMAL)
+- Bearing temperature: 48°C (NORMAL)
+- All operational parameters within specification
+
+RECOMMENDATIONS:
+- Continue monthly vibration monitoring
+- Install upstream filtration improvement to reduce debris
+- Schedule impeller inspection every 6 months for high-sediment locations
+- Consider preventive cleaning cycle every 180 days
+- Bearing replacement recommended at 1,100 days service age
+
+Total Service Time: 2.0 hours
+Next Scheduled Maintenance: 2024-05-05
+Warranty Status: UNDER WARRANTY (Expires 2025-06-30)
+
+Technician Signature: M. Thompson
+Report Filed: 2024-02-05 14:15:00
+

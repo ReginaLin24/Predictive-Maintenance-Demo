@@ -1,0 +1,89 @@
+MAINTENANCE SERVICE REPORT
+===========================
+Report ID: MSR-2024-006
+Pump ID: PUMP_003
+Incident ID: INC_006
+Service Date: 2024-03-14
+Technician: Robert Kim
+Service Type: Emergency Repair
+
+EXECUTIVE SUMMARY:
+Pressure drop incident on PUMP_003 (HydroMax-5000) following recent bearing replacement. 
+High patient impact classification. This is the second incident on this unit within 90 days.
+
+DIAGNOSTIC FINDINGS:
+- Discharge pressure dropped from 110.2 PSI to 92.5 PSI over 6-hour period
+- Fault Code FC_015: Pipe Pressure Drop
+- Flow rate maintained but with increased power consumption (+12%)
+- No abnormal vibration detected (2.8 mm/s)
+- Downstream pressure sensors showing consistent low readings
+- Recent service history: Bearing replacement on 2024-01-15 (MSR-2024-001)
+
+ROOT CAUSE ANALYSIS:
+Investigation revealed internal wear ring clearance increase beyond specification. Post-failure 
+analysis indicates:
+1. Accelerated wear due to abrasive particles in fluid (sediment content high)
+2. Inadequate flushing after bearing service allowed debris accumulation
+3. Wear ring clearance measured at 0.85mm (specification: 0.25-0.40mm)
+4. Internal recirculation losses estimated at 15% of rated flow
+
+Contributing factors: High service age (1,245 days) and operation in challenging water quality conditions.
+
+CORRECTIVE ACTIONS TAKEN:
+1. Emergency shutdown coordinated with backup systems
+2. Complete pump disassembly and internal inspection
+3. Wear ring replacement (both suction and discharge sides)
+4. Internal passage cleaning and flushing
+5. Mechanical seal inspection (found acceptable, not replaced)
+6. Reassembly with proper clearance verification
+7. System flushing protocol prior to restart
+8. 3-hour operational test with performance monitoring
+
+PARTS REPLACED:
+- Suction-side wear ring (Part #: HM5000-WR-SUCT)
+- Discharge-side wear ring (Part #: HM5000-WR-DISCH)
+- Internal gasket set (Part #: HM5000-GSKT-KIT)
+- Wear ring mounting hardware (Part #: HM5000-HDW-WR)
+
+POST-SERVICE VERIFICATION:
+- Discharge pressure: 110.8 PSI (EXCELLENT, restored to specification)
+- Flow rate: 38.9 L/s at rated head (NORMAL)
+- Power consumption: returned to nominal values
+- Wear ring clearances verified: 0.28mm suction, 0.32mm discharge (WITHIN SPEC)
+- Internal recirculation losses: <2% (EXCELLENT)
+- Efficiency: 81% (improved from 68%)
+
+PERFORMANCE COMPARISON:
+                    Before Service    After Service    Specification
+Pressure (PSI):     92.5             110.8            108-115
+Efficiency (%):     68               81               78-84
+Power (kW):         22.4             20.1             19.5-21.0
+
+RECOMMENDATIONS:
+- Install water quality monitoring (turbidity and sediment)
+- Implement pre-filtration system for high-sediment sources
+- Reduce wear ring replacement interval to 800 days for this location
+- Consider upgraded wear ring material (silicon carbide vs. bronze)
+- Add internal clearance monitoring to predictive maintenance program
+- Perform post-service system flushing protocol on all future repairs
+- Quarterly performance testing for next 12 months
+
+INCIDENT PATTERN ANALYSIS:
+This unit (PUMP_003) has experienced 2 incidents in 90 days:
+- INC_001 (2024-01-15): Bearing failure
+- INC_006 (2024-03-14): Wear ring failure
+Recommend comprehensive reliability improvement program for this asset.
+
+Total Service Time: 8.0 hours
+Next Scheduled Maintenance: 2024-06-14
+Warranty Status: OUT OF WARRANTY (Expired 2024-12-31)
+
+REGULATORY COMPLIANCE:
+- Pressure vessel inspection per ASME B31.1
+- Torque specifications verified per manufacturer guidelines
+
+Technician Signature: R. Kim
+Engineering Review: T. Williams, PE
+Quality Assurance: M. Johnson
+Report Filed: 2024-03-14 22:15:00
+

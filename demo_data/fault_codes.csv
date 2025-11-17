@@ -1,0 +1,17 @@
+fault_code,description,component_impact
+FC_001,Excessive Vibration Detected,BEARING
+FC_002,Motor Temperature Exceeds Threshold,MOTOR
+FC_003,Low Flow Rate Warning,IMPELLER
+FC_004,High Pressure Differential,SEAL
+FC_005,Bearing Temperature High,BEARING
+FC_006,Seal Leak Detected,SEAL
+FC_007,Motor Current Spike,MOTOR
+FC_008,Chlorine Sensor Malfunction,SENSOR
+FC_009,Pressure Sensor Drift,SENSOR
+FC_010,Impeller Cavitation,IMPELLER
+FC_011,Lubrication System Failure,BEARING
+FC_012,Motor Phase Imbalance,MOTOR
+FC_013,Emergency Stop Triggered,CONTROL_SYSTEM
+FC_014,Flow Meter Calibration Error,SENSOR
+FC_015,Pipe Pressure Drop,PIPING
+

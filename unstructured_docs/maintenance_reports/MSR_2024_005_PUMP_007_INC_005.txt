@@ -1,0 +1,77 @@
+MAINTENANCE SERVICE REPORT
+===========================
+Report ID: MSR-2024-005
+Pump ID: PUMP_007
+Incident ID: INC_005
+Service Date: 2024-03-02
+Technician: Lisa Rodriguez
+Service Type: Performance Investigation
+
+EXECUTIVE SUMMARY:
+Flow degradation reported on PUMP_007 (HydroMax-5000). Medium patient impact classification. 
+Systematic investigation conducted to identify and resolve performance issues.
+
+DIAGNOSTIC FINDINGS:
+- Flow rate reduced to 43.8 L/s (normal range: 48-55 L/s, ~12% degradation)
+- Fault Code FC_003: Low Flow Rate Warning
+- Pressure readings normal: 116.5 PSI
+- Vibration elevated but below alarm threshold: 4.0 mm/s
+- Power consumption normal
+- No fault codes for mechanical components
+
+ROOT CAUSE ANALYSIS:
+Detailed investigation revealed impeller cavitation due to suction-side conditions:
+1. Partial blockage in suction piping (debris accumulation)
+2. Impeller blade surface roughness from extended operation (1,023 days)
+3. Vortex formation at inlet during peak demand periods
+4. Net Positive Suction Head (NPSH) marginally below required value
+
+Analysis indicates combined hydraulic efficiency loss rather than single component failure.
+
+CORRECTIVE ACTIONS TAKEN:
+1. Coordinated shutdown during low-demand period
+2. Suction piping inspection and cleaning (removed debris accumulation)
+3. Impeller removal and surface reconditioning
+4. Blade leading edge polishing to restore surface finish
+5. Suction piping alignment verification
+6. Anti-vortex plate installation at inlet
+7. Performance curve testing and verification
+
+PARTS REPLACED:
+- Anti-vortex inlet plate (Part #: HM5000-AVP-001)
+- Suction line strainer element (Part #: HM5000-STR-100)
+
+REFURBISHMENT WORK:
+- Impeller surface polishing (in-house work)
+- Blade leading edge restoration
+
+POST-SERVICE VERIFICATION:
+- Flow rate restored: 46.8 L/s at rated head (EXCELLENT)
+- Efficiency improved from 78% to 84%
+- Vibration reduced: 2.9 mm/s (NORMAL)
+- NPSH margin increased: 2.1m above required
+- Cavitation noise eliminated
+- Pressure stability: ±0.3 PSI variation (EXCELLENT)
+
+HYDRAULIC PERFORMANCE TEST RESULTS:
+Shutoff Head: 142.5 PSI (spec: 140 PSI) ✓
+Rated Flow @ Rated Head: 46.8 L/s (spec: 45-50 L/s) ✓
+Best Efficiency Point: 48.2 L/s @ 84.2% efficiency ✓
+Maximum Flow: 58.1 L/s (spec: 55-60 L/s) ✓
+
+RECOMMENDATIONS:
+- Install permanent NPSH monitoring on all HydroMax-5000 units
+- Implement suction strainer inspection every 90 days
+- Consider suction piping redesign to improve hydraulic conditions
+- Schedule impeller reconditioning every 900 days for cavitation-prone locations
+- Add flow rate trending to predictive maintenance dashboard
+- Perform periodic performance curve testing to track degradation
+
+Total Service Time: 4.5 hours
+Next Scheduled Maintenance: 2024-06-02
+Warranty Status: UNDER WARRANTY (Expires 2025-02-28)
+
+Technician Signature: L. Rodriguez
+Hydraulic Engineer Review: T. Williams, PE
+Report Filed: 2024-03-02 17:30:00
+

@@ -1,0 +1,73 @@
+MAINTENANCE SERVICE REPORT
+===========================
+Report ID: MSR-2024-004
+Pump ID: PUMP_005
+Incident ID: INC_004
+Service Date: 2024-02-18
+Technician: David Park
+Service Type: Emergency Repair
+
+EXECUTIVE SUMMARY:
+Critical motor overheat condition detected on PUMP_005 (HydroMax-5000). High patient impact 
+classification requiring immediate response. Unit automatically shut down by protection system.
+
+DIAGNOSTIC FINDINGS:
+- Motor winding temperature reached 142°C (limit: 130°C)
+- Motor current draw elevated by 18% above nominal
+- Fault Code FC_002: Motor Temperature Exceeds Threshold
+- Thermal imaging revealed hot spots in phase B winding
+- Insulation resistance test showed degradation: 2.1 MΩ (minimum: 2.0 MΩ)
+
+ROOT CAUSE ANALYSIS:
+Multi-factor failure mode identified:
+1. Primary: Cooling fan motor bearing failure reducing airflow by 60%
+2. Secondary: Accumulated dust/debris on motor cooling fins
+3. Contributing: Ambient temperature 8°C above seasonal average
+4. Extended service age (1,389 days) with limited cooling system maintenance
+
+Motor windings showed early signs of thermal stress but no permanent damage detected.
+
+CORRECTIVE ACTIONS TAKEN:
+1. Emergency shutdown confirmed (auto-protection activation)
+2. Complete motor cooling system overhaul
+3. Cooling fan motor replacement
+4. Motor housing and cooling fin cleaning
+5. Insulation resistance testing (all phases)
+6. Thermal cycling test performed
+7. 4-hour operational test under full load
+
+PARTS REPLACED:
+- Cooling fan motor assembly (Part #: HM5000-FAN-MTR-001)
+- Fan motor bearings (Part #: BRG-6204-2RS)
+- Thermal protection relay (Part #: TPR-150-MOT)
+- Motor cooling fins (cleaned, not replaced)
+
+POST-SERVICE VERIFICATION:
+- Motor temperature under full load: 78°C (EXCELLENT)
+- Current draw: nominal +2% (NORMAL)
+- Insulation resistance: 15.3 MΩ (EXCELLENT)
+- Cooling airflow: 850 CFM (specification: 800 CFM)
+- Vibration levels: 2.8 mm/s (NORMAL)
+- Thermal imaging: uniform temperature distribution
+
+RECOMMENDATIONS:
+- Implement quarterly cooling system inspection protocol
+- Install ambient temperature monitoring for all motor installations
+- Consider environmental enclosure upgrade for high-temperature locations
+- Motor insulation resistance testing every 6 months
+- Cooling fan motor preventive replacement at 800 operating days
+- Add motor current monitoring to predictive maintenance algorithm
+
+Total Service Time: 5.5 hours
+Next Scheduled Maintenance: 2024-05-18
+Warranty Status: OUT OF WARRANTY (Expired 2024-11-10)
+
+REGULATORY COMPLIANCE:
+- Service meets NFPA 70E electrical safety standards
+- Motor testing per IEEE 43-2013 (insulation resistance)
+- Work performed by licensed electrician #E-2024-4892
+
+Technician Signature: D. Park
+Electrical Supervisor: R. Johnson
+Report Filed: 2024-02-18 19:45:00
+

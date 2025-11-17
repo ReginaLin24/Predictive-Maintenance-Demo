@@ -1,0 +1,69 @@
+MAINTENANCE SERVICE REPORT
+===========================
+Report ID: MSR-2024-007
+Pump ID: PUMP_009
+Incident ID: INC_007
+Service Date: 2024-03-28
+Technician: Sarah Chen
+Service Type: Critical Emergency Repair
+
+EXECUTIVE SUMMARY:
+Catastrophic bearing failure in PUMP_009 (HydroMax-5000) at coordinates 40.7306,-73.9352.
+Critical patient impact - immediate response required. Unit experienced complete operational failure.
+
+DIAGNOSTIC FINDINGS:
+- Severe vibration spike (RMS reading: 6.6 mm/s) 
+- Complete bearing seizure detected
+- Motor current draw exceeded 150% of nominal rating
+- Flow rate collapsed to 31.8 L/s (critical threshold: 35 L/s)
+- Multiple fault codes triggered: FC_005, FC_001, FC_013
+- Emergency stop system activated automatically
+
+ROOT CAUSE ANALYSIS:
+Catastrophic failure due to cumulative bearing degradation over 1,567 service days - well beyond 
+recommended replacement interval. Previous seal leak (INC_002) may have introduced contaminants 
+into bearing housing. Lubrication analysis revealed metal particles and water contamination.
+
+CORRECTIVE ACTIONS TAKEN:
+1. Emergency isolation at 03:47 - backup system activated
+2. Complete bearing housing replacement
+3. Motor shaft inspection and polishing
+4. Seal assembly replacement (preventive)
+5. Lubrication system complete overhaul
+6. Vibration monitoring system upgrade
+7. 8-hour burn-in test with continuous monitoring
+
+PARTS REPLACED:
+- Complete bearing housing assembly (Part #: HM5000-BRG-HOUSING)
+- Main bearing set (Part #: HM5000-BRG-001)
+- Motor shaft seal (Part #: HM5000-SEAL-002)
+- Lubrication pump (Part #: HM5000-LUB-PUMP)
+- Vibration sensor upgrade (Part #: VIB-SENS-SMART-001)
+
+POST-SERVICE VERIFICATION:
+- Vibration RMS: 1.9 mm/s (EXCELLENT)
+- Flow rate: 50.2 L/s (OPTIMAL)
+- Bearing temperature: 48°C (EXCELLENT)
+- Motor current: 98% nominal (NORMAL)
+- All diagnostic tests passed
+
+RECOMMENDATIONS:
+- URGENT: Schedule immediate inspection of all HydroMax-5000 units with >1,400 service days
+- Implement mandatory bearing replacement at 1,000 service days
+- Install predictive vibration monitoring on all critical pumps
+- Consider unit retirement at 1,800 service days
+- Quarterly oil analysis for all high-service-age units
+
+REGULATORY COMPLIANCE:
+- FDA Medical Device Reporting (MDR) filed: MDR-2024-0328-001
+- Hospital safety committee notified
+- Incident report submitted to facility management
+
+Total Service Time: 11.5 hours
+Next Scheduled Maintenance: 2024-04-28
+Warranty Status: OUT OF WARRANTY (Expired 2024-08-20)
+
+Technician Signature: S. Chen
+Supervisor Review: M. Thompson
+Report Filed: 2024-03-28 15:30:00
+
