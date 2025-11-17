@@ -14,4 +14,3 @@ FC_012,Motor Phase Imbalance,MOTOR
 FC_013,Emergency Stop Triggered,CONTROL_SYSTEM
 FC_014,Flow Meter Calibration Error,SENSOR
 FC_015,Pipe Pressure Drop,PIPING
-
